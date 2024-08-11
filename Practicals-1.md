@@ -11,15 +11,19 @@ Start the virtual machine in split-screen view by clicking the green Start Machi
 
 ![alt text](image.png)
 
-Answer the questions below ?
+### Task-1 : Who shared the malware samples?
 
-1. Who shared the malware samples?
+ Ans: Oliver Bennett
 
- - Oliver Bennett
+ Screeshot: 
 
  ![alt text](image-1.png)
 
-2. What is the SHA1 hash of the file "pRsm.dll" inside samples.zip?
+### Task-2: What is the SHA1 hash of the file "pRsm.dll" inside samples.zip?
+
+Ans: 9d1ecbbe8637fed0d89fca1af35ea821277ad2e8
+
+Screenshot: 
 
 Downloaded the attachment
 
@@ -35,9 +39,11 @@ Get the SHA1 using sha1sum
 ![alt text](image-4.png)
 
 
- - 9d1ecbbe8637fed0d89fca1af35ea821277ad2e8
+### 3: Which malware framework utilizes these DLLs as add-on modules?
 
-3. Which malware framework utilizes these DLLs as add-on modules?
+Ans: MgBot
+
+Screenshot:
 
 I did some google search regarding "pRsm.dll" and found out 
 
@@ -45,16 +51,21 @@ I did some google search regarding "pRsm.dll" and found out
 
 ![alt text](image-6.png)
 
- - MgBot
 
-4. Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?
+### 4: Which MITRE ATT&CK Technique is linked to using pRsm.dll in this malware framework?
+
+Ans: T1123
+
+Screenshot :
 
 ![alt text](image-7.png)
 
 
- - T1123
+### 5: What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?
 
-5. What is the CyberChef defanged URL of the malicious download location first seen on 2020-11-02?
+Ans: hxxp[://]update[.]browser[.]qq[.]com/qmbs/QQ/QQUrlMgr_QQ88_4296[.]exe
+
+Screenshot:
 
 ![alt text](image-8.png)
 
@@ -63,27 +74,27 @@ Defang the URL
 ![alt text](image-9.png)
 
 
- - hxxp[://]update[.]browser[.]qq[.]com/qmbs/QQ/QQUrlMgr_QQ88_4296[.]exe
+### 6: What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?
 
-6. What is the CyberChef defanged IP address of the C&C server first detected on 2020-09-14 using these modules?
+Ans: 122[.]10[.]90[.]12
+
+Screenshot: 
 
 ![alt text](image-10.png)
 
+### 7: What is the SHA1 hash of the spyagent family spyware hosted on the same IP targeting Android devices on November 16, 2022?
 
- - 122[.]10[.]90[.]12
+Ans: 1c1fe906e822012f6235fcc53f601d006d15d7be
 
-7. What is the SHA1 hash of the spyagent family spyware hosted on the same IP targeting Android devices on November 16, 2022?
-
+Screenshot: 
 
 Search the ip address in virus total
 
 ![alt text](image-11.png)
 
-
 ![alt text](image-12.png)
 
 ![alt text](image-13.png)
 
- - 1c1fe906e822012f6235fcc53f601d006d15d7be
 
 
